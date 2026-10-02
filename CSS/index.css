@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+
+.article{
+    background-image:url("../PHOTO/bg.png");
+    background-size:cover;
+    height:100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    
+
+
+ }
+
+.LOGO{
+    font-size:100px;
+    color: aliceblue;
+    text-shadow: -15px 7px 5px black;  
+
+
+}
+
+a{
+    text-decoration:none;
+}
+
+.button{
+    background-color:rgb(127, 16, 16);
+    height:50px;
+    width:150px;
+    align-content:center;
+    border-radius: 10px;
+    transition:  200ms ease;
+}
+
+.button a{
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    color: aliceblue;
+}
+.button:hover{
+    transform: translateY(10px) scale(1.2);
+    transition-duration:0.5s;
+    transition:0.5;
+    border-radius:15px;
+    background-color: aliceblue;
+
+  
+}
+
+.button a:hover{
+color:brown;
+}
+.nav-bar.active{
+    color:rgb(250, 249, 247);
+    background-color: brown;
+    border-radius: 10px;
+}
